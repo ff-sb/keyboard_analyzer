@@ -1,15 +1,16 @@
 html, body {
 	position: relative;
-	width: 200%;
-	height: 200%;
+	width: 100%;
+	height: 100%;
 }
 
 body {
-	color: #333;
+	background-color:#cccccc;
+	color: #4169E1;
 	margin: 0;
-	padding: 8px;
+	padding: 16px;
 	box-sizing: border-box;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Britannic", sans-serif;
 }
 
 a {
