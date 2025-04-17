@@ -1,11 +1,28 @@
 {
-  "name": "svelte-app",
+  "name": "a",
   "version": "1.0.0",
+  "description": "a",
+  "homepage": "https://github.com/ff-sb/keyboard_analyzer#readme",
+  "bugs": {
+    "url": "https://github.com/ff-sb/keyboard_analyzer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ff-sb/keyboard_analyzer.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "babel.config.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
     "test": "jest"
+  },
+  "dependencies": {
+    "sirv-cli": "^2.0.2",
+    "svelte-frappe-charts": "^1.9.2"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
@@ -28,9 +45,5 @@
     "svelte": "^3.52.0",
     "svelte-jester": "^2.3.2",
     "svelte-material-ui": "^7.0.0-beta.0"
-  },
-  "dependencies": {
-    "sirv-cli": "^2.0.2",
-    "svelte-frappe-charts": "^1.9.2"
   }
 }

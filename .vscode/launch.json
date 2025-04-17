@@ -7,10 +7,14 @@
         {
             "type": "chrome",
             "request": "launch",
+            "preLaunchTask": "npm run start",
             "name": "localhost に対して Chrome を起動する",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}",
-            "sourceMaps":true
+            "sourceMaps":true,
+            "sourceMapPathOverrides": {
+                "webpack:///./*": "${webRoot}/src/*" 
+              }
         }
     ]
 }
